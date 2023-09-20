@@ -4,6 +4,17 @@ where you will find relevant information about some cars, this web has an "ANIMA
 design, beautiful and minimalist, it contains a table in supabase for the Sign Up.
 
 
+# How to test
+If you want to use it live just follow these steps:
+https://engels23rd.github.io/Villa-Car/Login.html
+
+* In the Sign In you can login with these credentials
+Email = "visitante@outlook.es"
+Password = "123456789"
+Or register in the Sign Up.
+
+
+
 # Technologies Used
 * Visual Studio code
 * Bootstrap
@@ -15,15 +26,6 @@ design, beautiful and minimalist, it contains a table in supabase for the Sign U
 
 # Project Status
 The project is in a semi-finished phase, which is what it was made for.
-
-
-If you wish to use it live, just follow these steps:
-* In the same repository scroll down.
-* Then click on the Deployments tab.
-* When you are on the Deployments page a link will appear at the top.
-* Click on it and it will take you to a 404 Github page, then add to the link after the
-"/" Login.html just like this link = (https://engels23rd.github.io/Villa-Car/Login.html)
-that if it serves you copying it and pasting it in the perfect browser.
 
 
 
