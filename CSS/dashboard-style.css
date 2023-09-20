@@ -1,0 +1,258 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&display=swap');
+
+/*Colores*/
+
+/*GENERAL*/
+:root {
+    --color-hover: rgb(182, 28, 28);
+    --color-white: rgb(255,255,255);
+    --color-black: hsl(240, 4%, 9%);
+    --color-black2: hsl(180, 4%, 14%);
+    --color-gray: rgb(88, 88, 88);
+    --color-gray-light: hsl(219,4%,55%);
+}
+
+
+*{
+    font-family: 'Exo', sans-serif;
+}
+
+html{
+    background-color: var(--color-black);
+}
+
+
+
+.title{
+    color: var(--color-hover);
+}
+
+.start-home,
+.start-about, 
+.start-popular{
+    margin-top: 2rem !important;
+}
+
+
+/*NAVBAR*/
+
+#navbar{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    background-color: var(--color-black2);
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.logo{
+    margin-right: 15px !important;
+}
+
+.navbar-brand{
+    margin-left: 50px !important;
+    font-size: 1.8rem !important;
+    color: var(--color-white) !important;
+}
+
+.navbar-brand:hover{
+    color: var(--color-hover)!important;
+}
+
+.navbar-collapse{
+    margin-right: 50px;
+}
+
+.nav-link{
+    color: var(--color-white)!important;
+    margin-right: 100px !important;
+}
+
+.nav-link:hover{
+    color: var(--color-hover)!important;
+}
+
+
+/*HOME*/
+.content-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    padding: 55px !important;
+    text-align: center;
+}
+
+.F-portada{
+    height: 500px;
+    width: 700px;
+    margin: 30px;
+}
+
+.txt-home{
+    margin: 0 30rem !important;
+}
+
+
+#btn-mas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+}
+
+/*HOME y ABOUT */
+.content-header,
+.about {
+    height: 950px;
+}
+
+
+/*ABOUT*/
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    background-color: var(--color-black2) !important;
+    padding: 100px;
+    text-align: justify;
+}
+
+.content-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-about{
+    margin-bottom: 2rem !important;
+}
+
+.F-about{
+    margin: 1rem !important;
+    height: 500px;
+    border-radius: 10%;
+}
+
+
+.txt-about{
+    padding: 2rem !important;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+/*POPULAR*/
+.content-popular{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    text-align: justify;
+}
+
+.txt-popular{
+    padding: 1rem 300px !important;
+}
+
+.title-popular{
+    margin-bottom: 2rem !important;
+}
+
+/*Carrusel*/
+
+/*CARDS*/
+
+.card{
+    height: 60%;
+    width: 100%;
+    padding: 15px !important;
+    color: var(--color-white) !important;
+    background-color: var(--color-black2) !important;
+    border-radius: 30px !important;
+}
+
+.card img {
+    max-width: 100%; 
+    height: auto;
+    object-fit: cover;
+}
+
+.card-img-top{
+    padding: 30px !important;
+}
+
+.card-body {
+    margin-top: 10px !important; 
+    margin-bottom: 10px !important; 
+}
+
+.card-title-container{  
+    display: flex;
+    flex-direction: row;
+}
+
+.card-title{
+    margin-top: 20px !important;
+    font-weight: 600;
+    font-size: x-large;
+}
+.card-title:hover{
+    color: var(--color-hover)
+}
+
+.card-model{
+    margin: 10px 0 !important;
+    font-weight: 600; ;
+}
+
+.logo-card{
+    margin: 10px !important;
+    width: 50px !important;
+}
+
+#boton-learn{
+    margin: 10px !important;
+    padding: 10px !important;
+    border-radius: 10px!important;
+}
+
+.description{
+    text-align: justify;
+}
+
+/**/
+
+.carousel-control-prev, .carousel-control-next {
+    font-size: 1rem; 
+    width: 30px ; 
+    height: 50px; 
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #333;
+}
+
+
+
+
+
+

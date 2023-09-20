@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=3, initial-scale=1.0" />
+    <title>VillaCar</title>
+    <link rel="stylesheet" href="CSS/login-style.css" />
+    <!-- Fuente de letra-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Libreria de iconos-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="Media/LOGO.png"
+    />
+  </head>
+  <body>
+    <!-- Formulario de sign up-->
+    <div class="container-form sign-up">
+      <div class="welcome-back">
+        <div class="message">
+          <h2>Welcome to VillaCar</h2>
+          <p>If you have an account, sign up here.</p>
+          <button class="sign-up-btn">Sign in</button>
+        </div>
+      </div>
+      <form class="formulario">
+        <h2 class="create-account">Create an account</h2>
+        <div class="iconos">
+          <div class="border-icon">
+            <i class="bx bxl-facebook-circle"></i>
+          </div>
+          <div class="border-icon">
+            <i class="bx bxl-github"></i>
+          </div>
+          <div class="border-icon">
+            <i class="bx bxl-google"></i>
+          </div>
+        </div>
+        <p class="cuenta-gratis">Create a free account:</p>
+        <input type="text" id="name" name="name" placeholder="Name" />
+        <input
+          type="text"
+          id="nickname"
+          name="username"
+          placeholder="Username"
+        />
+        <input
+          type="email"
+          id="registerEmail"
+          name="email"
+          placeholder="Email"
+        />
+        <input
+          type="password"
+          id="registerPassword"
+          name="pass"
+          placeholder="Password"
+        />
+        <button type="button" id="registerButton" class="buttons">
+          Sign up
+        </button>
+      </form>
+    </div>
+
+    <form class="mensajeExito" id="mensajeExito">
+      <div id="registroExitoso" class="mensaje-exito">
+        Registration successful! You have successfully registered.
+      </div>
+    </form>
+
+    <!-- Formulario de Sign in-->
+    <div class="container-form sign-in">
+      <form class="formulario">
+        <h2 class="create-account">Sign in</h2>
+        <div class="iconos">
+          <div class="border-icon">
+            <i class="bx bxl-facebook-circle"></i>
+          </div>
+          <div class="border-icon">
+            <i class="bx bxl-github"></i>
+          </div>
+          <div class="border-icon">
+            <i class="bx bxl-google"></i>
+          </div>
+        </div>
+        <p class="cuenta-gratis">Don't have an account yet?</p>
+        <input type="email" id="login-email" placeholder="Email" />
+        <input type="password" id="login-password" placeholder="Password" />
+        <button type="button" id="login-button" class="buttons">Sign in</button>
+      </form>
+      <div class="welcome-back">
+        <div class="message">
+          <h2>Welcome back</h2>
+          <p>If you don't have an account yet, sign in here.</p>
+          <button class="sign-in-btn">Sign up</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="Scripts/Client.js"></script>
+    <script src="Scripts/App.js"></script>
+    <script src="Scripts/Funcion-login.js"></script>
+  </body>
+</html>

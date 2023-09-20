@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa Car</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="CSS/dashboard-style.css">
+    <!--ICON-->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="Media/LOGO.png"/>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+<body> 
+
+  <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Dashboard.html">
+            <img class="logo" src="Media-Dashboard/LOGO.png" alt="tesla-model-x"/>
+            <b>Villa Car</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#popular">Popular</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Log Out</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+
+    <!--HEADER-->
+    <header class="content-header" id="home">
+      <!--HOME-->
+      <div class="title">
+        <h1 class="title-home"><b>HOME</b></h1>
+      </div>
+      
+      <img class="F-portada" src="Media-Dashboard/F front.png" alt="Ferrari de inicio">
+
+      <div class="txt-home">
+        <p>
+          At Villa Car, we have created an exciting space dedicated to car lovers. 
+          If you're a car enthusiast, you've come to the perfect place to explore 
+          and enjoy to explore and enjoy a wide range of information related to the 
+          world of motoring.
+        </p>
+      </div>
+      <div class="start-home">
+        <a class="btn btn-primary" href="#about"  id="btn-mas" >
+          <i class='bx bxs-caret-down-circle'></i>
+          </a>
+      </div>
+    </header>
+    
+
+      <!--ABOUT-->
+      <section class="about" id="about">
+
+        <div class="title">
+          <h1 class="title-about"><b>ABOUT</b></h1>
+        </div>
+
+        <div class="content-about">
+          <img class="F-about" src="Media-Dashboard/P inside.jpg" alt="Porsche inside">
+          <div class="contenedor">
+            <div class="txt-about">
+              <p>
+                On our site, you will find a carefully selected collection of news, reviews, comparisons, 
+                and technical data on a variety of vehicles. Our mission is to keep you up to date on the 
+                latest developments in the automotive industry, from the latest models and technological 
+                advances to the timeless classics that have left their mark on automotive history.
+                <br><br>
+                But Villa Car is more than just a source of information; it's a community where car lovers 
+                can connect, share their opinions and experiences, and discover the exciting can connect, 
+                share their opinions and the world that revolves around cars. Here, you can participate in 
+                discussions, ask questions, and find inspiration for your next vehicle or customization project.
+                <br><br>
+                Our team of passionate automotive experts is committed to bringing you quality content and 
+                keeping the excitement content and keeping the excitement we feel for cars alive. Whether you're 
+                a novice enthusiast or industry veteran, Villa Car has something for you.
+                <br><br>
+                Explore our sections, join the conversation and embark on an exciting journey through the 
+                fascinating world of automobiles. Welcome to Villa Car, where your passion for cars meets ours
+                ! Joins ours !
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="start-about">
+          <a class="btn btn-primary" href="#popular"  id="btn-mas" >
+            <i class='bx bxs-caret-down-circle'></i>
+            </a>
+        </div>
+      </section>
+
+      <!--POPULAR-->
+      <section class="content-popular" id="popular">
+        <div class="title">
+          <h1 class="title-popular"><b>POPULAR</b></h1>
+        </div>
+        <div class="txt-popular">
+          <b>
+            Discover the Most Popular Cars!
+          </b>
+            <br>
+            At Villa Car, we invite you to explore our special section dedicated to the cars that have conquered 
+            to the cars that have conquered the hearts of drivers around the world. the world. From iconic sedans 
+            to nimble sports cars and versatile SUVs, here you will find detailed you'll find detailed information 
+            on the cars that are setting trends and standing out in the automotive market. Want to know which models 
+            are the most popular and why? Then don't miss our selection of the most admired and desired cars! 
+            admired and desired cars!
+          </p>
+          <br/>
+        </div>
+
+
+
+        <div class="carrucel">
+          <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!--PESTAÑA 1-->
+                <div class="row">
+                  <div class="col-md-4">
+                    <!--1-->
+                    <!--RELLENO DEL CARRUCEL-->
+                    <div class="card h-100">
+                      <div class="card-title-container">
+                        <img class="logo-card" src="Media-Dashboard/Card/Ferrari/Ferrari.png" alt="Logo de ferrari"/>
+                        <h5 class="card-title"><b>Ferrari</b></h5>
+                      </div>
+                      <img src="/Media-Dashboard/Card/Ferrari/F 458.png" class="card-img-top" alt="Ferrari 458">
+                      <div class="card-body">
+                        <h5 class="card-model"><b>458</b></h5>
+                        <div class="description">
+                          <p class="card-text">
+                            The Ferrari 458 features a 4.5-liter V8 engine that produces approximately 570 horsepower. 
+                            Its 0 to 100 km/h acceleration capability is astonishingly quick, achieving this milestone 
+                            in less than 3.4 seconds.
+                          </p>
+                        </div>
+                        <a href="https://www.ferrari.com/es-ES/auto/458-italia"  target="_blank" class="btn btn-primary" id="boton-learn">Saber mas</a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  
+                  <div class="col-md-4">
+                    <!--2-->
+                    <!--RELLENO DEL CARRUCEL-->
+                    <div class="card h-100">
+                      <div class="card-title-container">
+                        <img class="logo-card" src="Media-Dashboard/Card/Ferrari/Ferrari.png" alt="Logo de ferrari"/>
+                        <h5 class="card-title"><b>Ferrari</b></h5>
+                      </div>
+                      <img src="/Media-Dashboard/Card/Ferrari/F12.png" class="card-img-top" alt="Ferrari F12">
+                      <div class="card-body">
+                        <h5 class="card-model"><b>F12 TDF</b></h5>
+                        <div class="description">
+                          <p class="card-text">
+                            The Ferrari F12 TDF is a masterpiece of Italian engineering. Equipped with a high-performance V12 engine, 
+                            this supercar delivers power of over 770 HP. Its 0 to 100 km/h acceleration is astonishingly fast, achieving 
+                            this feat in less than 2.9 seconds.
+                          </p>
+                        </div>
+                        <a href="https://www.ferrari.com/es-ES/auto/f12tdf" target="_blank" class="btn btn-primary" id="boton-learn">Saber mas</a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-md-4">
+                    <!--3-->
+                    <!--RELLENO DEL CARRUCEL-->
+                    <div class="card h-100">
+                      <div class="card-title-container">
+                        <img class="logo-card" src="Media-Dashboard/Card/Ferrari/Ferrari.png" alt="Logo de ferrari"/>
+                        <h5 class="card-title"><b>Ferrari</b></h5>
+                      </div>
+                      <img src="/Media-Dashboard/Card/Ferrari/F Portofino.png" class="card-img-top" alt="Ferrari Portofino">
+                      <div class="card-body">
+                        <h5 class="card-model"><b>Portofino</b></h5>
+                        <div class="description">
+                          <p class="card-text">
+                            The Ferrari Portofino Spider is the embodiment of elegance and performance. Its turbocharged 
+                            V8 engine delivers over 600 HP, providing an exhilarating driving experience. Every curve and 
+                            detail of the car reflects Ferrari's passion for craftsmanship. It turns every journey into a 
+                            unique experience.
+                          </p>
+                        </div>
+                        <a href="https://www.ferrari.com/es-ES/auto/ferrari-portofino-m" target="_blank" class="btn btn-primary" id="boton-learn">Saber mas</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <!--PESTAÑA 2-->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <!--1-->
+                    <!--RELLENO DEL CARRUCEL-->
+                    <div class="card h-100">
+                      <div class="card-title-container">
+                        <img class="logo-card" src="Media-Dashboard/Card/Mclaren/Mclaren.png" alt="Logo Mclaren"/>
+                        <h5 class="card-title"><b>McLaren</b></h5>
+                      </div>
+                      <img src="/Media-Dashboard/Card/Mclaren/M 650s.png" class="card-img-top" alt="Mclaren 620s">
+                      <div class="card-body">
+                        <h5 class="card-model"><b>675 LT</b></h5>
+                        <div class="description">
+                          <p class="card-text">
+                            The McLaren 675LT features a striking carbon fiber body that increases aerodynamic 
+                            downforce. The redesigned V8 twin-turbo M838TL engine produces 675 HP and 700 Nm 
+                            (516 lb-ft) of torque, and the seven-speed dual-clutch gearbox is now twice as fast.
+                          </p>
+                        </div>
+                        <a href="https://cars.mclaren.com/en/legacy/675lt" target="_blank" class="btn btn-primary" id="boton-learn">Saber mas</a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-md-4">
+                    <!--2-->
+                    <!--RELLENO DEL CARRUCEL-->
+                    <div class="card h-100">
+                      <div class="card-title-container">
+                        <img class="logo-card" src="Media-Dashboard/Card/Mclaren/Mclaren.png" alt="Logo Mclaren"/>
+                        <h5 class="card-title"><b>McLaren</b></h5>
+                      </div>
+                      <img src="/Media-Dashboard/Card/Mclaren/M 720s.png" class="card-img-top" alt="McLaren 720s">
+                      <div class="card-body">
+                        <h5 class="card-model"><b>720 S</b></h5>
+                        <div class="description">
+                          <p class="card-text">
+                            The McLaren 720S is a symbol of innovation and performance. This supercar is powered by a 
+                            4.0-liter twin-turbo V8 engine, generating an impressive 720 HP. Accelerating from 0 to 100 
+                            km/h in less than 3 seconds, the 720S offers an exciting and unparalleled driving experience.
+                          </p>
+                        </div>
+                        <a href="https://cars.mclaren.com/en/super-series/720s" target="_blank" class="btn btn-primary" id="boton-learn">Saber mas</a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-md-4">
+                    <!--3-->
+                    <!--RELLENO DEL CARRUCEL-->
+                    <div class="card h-100">
+                      <div class="card-title-container">
+                        <img class="logo-card" src="Media-Dashboard/Card/Mclaren/Mclaren.png" alt="Logo Mclaren"/>
+                        <h5 class="card-title"><b>McLaren</b></h5>
+                      </div>
+                      <img src="/Media-Dashboard/Card/Mclaren/M 765LT.png" class="card-img-top" alt="McLaren 720s">
+                      <div class="card-body">
+                        <h5 class="card-model"><b>765 LT</b></h5>
+                        <div class="description">
+                          <p class="card-text">
+                            The McLaren 765LT is a supercar that pushes the limits of speed and performance. 
+                            Equipped with a 4.0-liter twin-turbo V8 engine, it produces an impressive 765 HP. 
+                            Its 0 to 100 km/h acceleration is astonishingly fast, achieving this milestone in less 
+                            than 2.8 seconds.
+                          </p>
+                        </div>
+                        <a href="https://cars.mclaren.com/en/super-series/765lt" target="_blank" class="btn btn-primary" id="boton-learn">Saber mas</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            <!--PESTAÑA 3-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <!--1-->
+                  <!--RELLENO DEL CARRUCEL-->
+                  <div class="card h-100">
+                    <div class="card-title-container">
+                      <img class="logo-card" src="Media-Dashboard/Card/Lamborghini/Lamborghini.png" alt="Logo de Lamborghini"/>
+                      <h5 class="card-title"><b>Lamborghini</b></h5>
+                    </div>
+                    <img src="/Media-Dashboard/Card/Lamborghini/L Aventador.png" class="card-img-top" alt="Lamborghini Aventador">
+                    <div class="card-body">
+                      <h5 class="card-model"><b>Aventador</b></h5>
+                      <div class="description">
+                        <p class="card-text">
+                          The Lamborghini Aventador is an iconic supercar that combines stunning design with outstanding performance. 
+                          It is equipped with a 6.5-liter V12 engine that generates an exceptional 770 HP. Its 0 to 100 km/h acceleration
+                          is extremely fast, achieving this feat in less than 2.8 seconds. Experience the thrill of speed with the Aventador.
+                        </p>
+                      </div>
+                      <a href="https://www.lamborghini.com/es-en/modelos/aventador" target="_blank" class="btn btn-primary" id="boton-learn">Saber mas</a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-4">
+                  <!--2-->
+                  <!--RELLENO DEL CARRUCEL-->
+                  <div class="card h-100">
+                    <div class="card-title-container">
+                      <img class="logo-card" src="Media-Dashboard/Card/Lamborghini/Lamborghini.png" alt="Logo de Lamborghini"/>
+                      <h5 class="card-title"><b>Lamborghini</b></h5>
+                    </div>
+                    <img src="/Media-Dashboard/Card/Lamborghini/L Centenario.png" class="card-img-top" alt="Lamborghini Centenario">
+                    <div class="card-body">
+                      <h5 class="card-model"><b>Centenario</b></h5>
+                      <div class="description">
+                        <p class="card-text">
+                          The Lamborghini Centenario is a masterpiece of engineering and automotive design. It is equipped with a 
+                          6.5-liter V12 engine that produces extraordinary power of 770 HP. Its 0 to 100 km/h acceleration is fast, 
+                          achieving it in less than 2.8 seconds. The Centenario is a limited-edition supercar that pushes excitement 
+                          to the limit.
+                        </p>
+                      </div>
+                      <a href="https://www.lamborghini.com/es-en/historia/centenario" target="_blank" class="btn btn-primary" id="boton-learn">Saber mas</a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-4">
+                  <!--3-->
+                  <!--RELLENO DEL CARRUCEL-->
+                  <div class="card h-100">
+                    <div class="card-title-container">
+                      <img class="logo-card" src="Media-Dashboard/Card/Lamborghini/Lamborghini.png" alt="Logo de Lamborghini"/>
+                      <h5 class="card-title"><b>Lamborghini</b></h5>
+                    </div>
+                    <img src="/Media-Dashboard/Card/Lamborghini/L Huracan.png" class="card-img-top" alt="Lamborghini Huracan">
+                    <div class="card-body">
+                      <h5 class="card-model"><b>Huracan</b></h5>
+                      <div class="description">
+                        <p class="card-text">
+                          The Lamborghini Huracán is a supercar that offers a perfect balance of performance and style. 
+                          It features a 5.2-liter V10 engine that delivers an impressive 610 HP. Its 0 to 100 km/h acceleration 
+                          is quick, achieving it in less than 3.2 seconds. Experience the thrill of speed with the Huracán.
+                        </p>
+                      </div>
+                      <a href="https://www.lamborghini.com/es-en/modelos/huracan" target="_blank" class="btn btn-primary" id="boton-learn">Saber mas</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!--PESTAÑA 4-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <!--1-->
+                  <!--RELLENO DEL CARRUCEL-->
+                  <div class="card h-100">
+                    <div class="card-title-container">
+                      <img class="logo-card" src="Media-Dashboard/Card/Porsche/Porsche.png" alt="Logo de Porsche"/>
+                      <h5 class="card-title"><b>Porsche</b></h5>
+                    </div>
+                    <img src="/Media-Dashboard/Card/Porsche/P GT2 RS.png" class="card-img-top" alt="Porsche GT2">
+                    <div class="card-body">
+                      <h5 class="card-model"><b>GT2 RS</b></h5>
+                      <div class="description">
+                        <p class="card-text">
+                          The Porsche 911 GT2 RS is a high-performance supercar that combines power and agility. 
+                          It is equipped with a 3.8-liter boxer engine that produces an astonishing 700 HP. Its 0 to 
+                          100 km/h acceleration is fast, achieving it in less than 2.7 seconds. Experience the excitement 
+                          of speed and exceptional performance with the 911 GT2 RS.
+                        </p>
+                      </div>
+                      <a href="https://www.porschenorthhouston.com/porsche-911-gt2-rs.html" target="_blank" class="btn btn-primary" id="boton-learn">Saber mas</a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-4">
+                  <!--2-->
+                  <!--RELLENO DEL CARRUCEL-->
+                  <div class="card h-100">
+                    <div class="card-title-container">
+                      <img class="logo-card" src="Media-Dashboard/Card/Porsche/Porsche.png" alt="Logo de Porsche"/>
+                      <h5 class="card-title"><b>Porsche</b></h5>
+                    </div>
+                    <img src="/Media-Dashboard/Card/Porsche/P Macan.png" class="card-img-top" alt="Porsche Macan">
+                    <div class="card-body">
+                      <h5 class="card-model"><b>Macan Turbo</b></h5>
+                      <div class="description">
+                        <p class="card-text">
+                          The Porsche Macan Turbo is the ultimate embodiment of versatility and performance in a compact luxury SUV. 
+                          Powered by a 2.9-liter twin-turbo V6 engine, this Macan offers exceptional power of 434 HP and accelerates 
+                          from 0 to 100 km/h in just 4.3 seconds, providing an exhilarating driving experience.
+                        </p>
+                      </div>
+                      <a href="https://www.porsche.com/latin-america-es/_argentina_/models/macan/macan-models/macan-t/" target="_blank" class="btn btn-primary" id="boton-learn">Saber mas</a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-4">
+                  <!--3-->
+                  <!--RELLENO DEL CARRUCEL-->
+                  <div class="card h-100">
+                    <div class="card-title-container">
+                      <img class="logo-card" src="Media-Dashboard/Card/Porsche/Porsche.png" alt="Logo de Porsche"/>
+                      <h5 class="card-title"><b>Porsche</b></h5>
+                    </div>
+                    <img src="/Media-Dashboard/Card/Porsche/P Turbo.png" class="card-img-top" alt="Porsche Turbo S">
+                    <div class="card-body">
+                      <h5 class="card-model"><b>911 Turbo S (992)</b></h5>
+                      <div class="description">
+                        <p class="card-text">
+                          The Porsche 911 Turbo S (992) is the epitome of high-performance sports cars. With a 3.8-liter 
+                          turbocharged engine producing a staggering 640 HP, it accelerates from 0 to 100 km/h in under 
+                          2.7 seconds. Experience the thrill of speed and precision with the 911 Turbo S.
+                        </p>
+                      </div>
+                      <a href="https://finder.porsche.com/do/es-DO/details/porsche-911-turbo-nuevo-0ZE60N?model=911" target="_blank" class="btn btn-primary" id="boton-learn">Saber mas</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+            <!--PESTAÑA 5-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <!--1-->
+                  <!--RELLENO DEL CARRUCEL-->
+                  <div class="card h-100">
+                    <div class="card-title-container">
+                      <img class="logo-card" src="Media-Dashboard/Card/Tesla/Tesla.png" alt="Logo de Tesla"/>
+                      <h5 class="card-title"><b>Tesla</b></h5>
+                    </div>
+                    <img src="/Media-Dashboard/Card/Tesla/Model 3.png" class="card-img-top" alt="Tesla ">
+                    <div class="card-body">
+                      <h5 class="card-model"><b>Model 3</b></h5>
+                      <div class="description">
+                        <p class="card-text">
+                          The Tesla Model 3 is a milestone in the electric mobility revolution. This fully electric luxury 
+                          sedan combines elegant design. It can accelerate from 0 to 100 km/h in seconds, providing an exciting 
+                          and emissions-free driving experience.
+                        </p>
+                      </div>
+                      <a href="https://www.tesla.com/model3" target="_blank" class="btn btn-primary" id="boton-learn">Saber mas</a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-4">
+                  <!--2-->
+                  <!--RELLENO DEL CARRUCEL-->
+                  <div class="card h-100">
+                    <div class="card-title-container">
+                      <img class="logo-card" src="Media-Dashboard/Card/Tesla/Tesla.png" alt="Logo de Tesla"/>
+                      <h5 class="card-title"><b>Tesla</b></h5>
+                    </div>
+                    <img src="/Media-Dashboard/Card/Tesla/Model S.png" class="card-img-top" alt="Lamborghini Centenario">
+                    <div class="card-body">
+                      <h5 class="card-model"><b>Model S</b></h5>
+                      <div class="description">
+                        <p class="card-text">
+                          The Tesla Model S is a benchmark in the electric vehicle industry. It accelerates from 0 
+                          to 100 km/h in seconds and boasts impressive power that makes it a leader in its category.
+                        </p>
+                      </div>
+                      <a href="https://www.tesla.com/models" target="_blank" class="btn btn-primary" id="boton-learn">Saber mas</a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-4">
+                  <!--3-->
+                  <!--RELLENO DEL CARRUCEL-->
+                  <div class="card h-100">
+                    <div class="card-title-container">
+                      <img class="logo-card" src="Media-Dashboard/Card/Tesla/Tesla.png" alt="Logo de Tesla"/>
+                      <h5 class="card-title"><b>Tesla</b></h5>
+                    </div>
+                    <img src="/Media-Dashboard/Card/Tesla/Model Y.png" class="card-img-top" alt="Tesla Model Y">
+                    <div class="card-body">
+                      <h5 class="card-model"><b>Model Y</b></h5>
+                      <div class="description">
+                        <p class="card-text">
+                          The Tesla Model Y is a perfect combination of versatility and performance. This electric 
+                          SUV offers space for the whole family and an exciting driving experience. It accelerates 
+                          from 0 to 100 km/h in seconds, thanks to its powerful electric motor, providing an emissions-free 
+                          and fun ride.
+                        </p>
+                      </div>
+                      <a href="https://www.tesla.com/modely" target="_blank" class="btn btn-primary" id="boton-learn">Saber mas</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="start-popular">
+          <a class="btn btn-primary" href="#home"  id="btn-mas" >
+            <i class='bx bxs-caret-up-circle'></i>
+            </a>
+        </div>
+      </section>
+
+    <!--SCRIPS-->
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
+    crossorigin="anonymous"></script>
+
+    <!--JS-->
+    <script src="/Scripts/scrollreveal.min.js"></script>
+    <script src="/Scripts/Animacion.js"></script>
+
+</body>
+</html>
+
+
