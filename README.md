@@ -1,7 +1,7 @@
 # Villa-Car
-Web about cars where you enter a sign up to register and a sign in to log in to 
-the site, where you will find relevant information about some cars.
-
+Web about cars where you enter a sign up to register and a sign in to enter the web, 
+where you will find relevant information about some cars, this web has an "ANIMATED" 
+design, beautiful and minimalist, it contains a table in supabase for the Sign Up.
 
 
 # Technologies Used
@@ -15,6 +15,15 @@ the site, where you will find relevant information about some cars.
 
 # Project Status
 The project is in a semi-finished phase, which is what it was made for.
+
+
+If you wish to use it live, just follow these steps:
+* In the same repository scroll down.
+* Then click on the Deployments tab.
+* When you are on the Deployments page a link will appear at the top.
+* Click on it and it will take you to a 404 Github page, then add to the link after the
+"/" Login.html just like this link = (https://engels23rd.github.io/Villa-Car/Login.html)
+that if it serves you copying it and pasting it in the perfect browser.
 
 
 
