@@ -123,7 +123,6 @@ html{
     color: var(--color-white);
     background-color: var(--color-black2) !important;
     padding: 100px;
-    text-align: justify;
 }
 
 .content-about{
@@ -166,7 +165,6 @@ html{
     padding: 100px;
     color: var(--color-white);
     background-color: var(--color-black);
-    text-align: justify;
 }
 
 .txt-popular{
@@ -235,9 +233,6 @@ html{
     border-radius: 10px!important;
 }
 
-.description{
-    text-align: justify;
-}
 
 /**/
 
