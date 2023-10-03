@@ -1,9 +1,9 @@
 /*Font*/
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&display=swap');
 
-/*Colores*/
-
 /*GENERAL*/
+
+/*Colores*/
 :root {
     --color-hover: rgb(182, 28, 28);
     --color-white: rgb(255,255,255);
@@ -55,10 +55,13 @@ html{
     margin-left: 50px !important;
     font-size: 1.8rem !important;
     color: var(--color-white) !important;
+    transition: all 0.3;
 }
 
 .navbar-brand:hover{
     color: var(--color-hover)!important;
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .navbar-collapse{
